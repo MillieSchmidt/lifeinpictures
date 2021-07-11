@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 103);
+  overflow-x: hidden;
+}
+
+.breadcrumb {
+  margin: 0;
+  padding: 0.2rem;
+  padding-right: 0.4rem;
+  padding-top: 0.1rem;
+  background-color: rgb(245, 245, 245);
+}
+
+.camera-icon {
+  border: 0px solid red;
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+  color: rgb(255, 145, 0);
+}
+
+.border-class {
+  border-bottom: 3px solid rgb(255, 145, 0);
+}
+
+.title {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* .gallery-img {
+  display: none;
+  max-height: 35rem;
+}
+
+.active {
+  display: block;
+}
+
+.noWrap {
+  white-space: nowrap;
+  font-size: 1.8em;
+} */
+
+.expand:hover {
+  transform: scale(1.1);
+  transition: 400ms ease-in-out;
+  cursor: pointer;
+}
+
+.link {
+  color: black;
+  font-size: 1rem;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: rgb(255, 145, 0);
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(39, 39, 39);
+}
+
+.about {
+  color: white;
+}
+
+.about:hover {
+  text-decoration: none;
+  color: rgb(255, 145, 0);
+}
+
+.about-row {
+  margin: 0 20% 6% 20%;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  border-radius: 2rem;
+  font-size: 95%;
+}
+
+.about-row h1 {
+  font-size: 200%;
+}
+
+.about-row img {
+  border: 1px solid rgb(230, 187, 194);
+  height: 25%;
+  width: 25%;
+  border-radius: 1.5rem;
+  user-select: none;
+}
+
+.gallery-row {
+  margin-bottom: 5rem;
+  user-select: none;
+}
+
+.wrapper {
+  display: inline-flex;
+  /* flex-flow: row nowrap; */
+  justify-content: center;
+  align-items: center;
+  /* height: 35rem; */
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 5rem;
+  background-color: rgb(39, 39, 39);
+}
+
+.cancel {
+  position: absolute;
+  top: 12%;
+  right: 4%;
+  margin-top: 2%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.prev, .next {
+  width: 2rem;
+  height: 10rem;
+  color: rgb(255, 255, 103);
+  cursor: pointer;
+}
+
+.slider {
+  border: 0px solid purple;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 73%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0 2rem;
+}
+
+.pic-container {
+  border: 0px solid yellow;
+  display: none;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.active {
+  display: block;
+}
+
+.pic-container img {
+  border: 0px solid red;
+  max-width: 100%;
+  /* width: 100%; */
+  max-height: 90%;
+  margin-top: 1rem;
+  user-select: none;
+}
+
+@media screen and (min-width: 800px) and (max-width: 891px) {
+  .pic-container {
+    border: 0px solid orange;
+    width: 100%;
+    height: 80%;
+    max-height: 100%;
+  }
+
+  .pic-container img {
+    border: 0px solid white;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* .about-row {
+    font-size: 90%;
+    margin-bottom: 5rem;
+  }
+
+  .about-row h1 {
+    border: 1px solid yellow;
+    font-size: 120%;
+    font-weight: bold;
+  } */
+
+  .about-row img {
+    height: 50%;
+    width: 50%;
+  }
+
+  .wrapper {
+    height: 100vh;
+  }
+
+  .cancel {
+    top: 9%;
+    margin-top: 0;
+  }
+
+  .prev, .next {
+    display: none;
+  }
+
+  .slider {
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+  }
+
+  .pic-container img {
+    border: 3px solid green;
+    margin-top: 20%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-height: 815px) and (max-width: 800px) {
+  .about-row {
+    font-size: 90%;
+    margin-bottom: 6rem;
+  }
+
+  .about-row h1 {
+    border: 1px solid pink;
+    font-size: 120%;
+    font-weight: bold;
+  }
+
+  .about-row img {
+    height: 90%;
+    width: 90%;
+  }
+
+  .cancel {
+    top: 12%;
+  }
+
+  .pic-container img {
+    border: 0px solid pink;
+    margin-top: 31%;
+    height: 52%;
+  }
+}
+
+@media screen and (max-height: 700px) and (max-width: 800px) {
+  .about-row {
+    font-size: 90%;
+    margin-bottom: 5rem;
+  }
+
+  .about-row h1 {
+    border: 0px solid pink;
+    font-size: 120%;
+    font-weight: bold;
+  }
+
+  .about-row img {
+    height: 90%;
+    width: 90%;
+  }
+
+  .cancel {
+    margin-top: 2%;
+  }
+
+  .pic-container img {
+    border: 0px solid lightblue;
+    margin-top: 23%;
+    height: 52%;
+  }
+}
