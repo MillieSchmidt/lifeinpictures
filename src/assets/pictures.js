@@ -82,7 +82,7 @@ export const PICTURES = [
     {
         id: 10,
         path: 'nahal-betzet',
-        src: 'assets/images/נחל בצת/IMG_8648.JPG',
+        src: 'assets/images/betzet/IMG_8648.JPG',
         album: 'נחל בצת',
         alt: 'נחל בצת',
         description: 'לילה באוהלים, הליכה בנחל בצת וזחילה במנהרה'
