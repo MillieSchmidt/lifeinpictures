@@ -74,7 +74,7 @@ export const PICTURES = [
     {
         id: 9,
         path: 'tel-aviv-walk',
-        src: 'assets/images/מסע תל אביבי/picture7.jpg',
+        src: 'assets/images/tel aviv journey/picture7.jpg',
         album: 'מסע תל אביבי',
         alt: 'תל אביב',
         description: 'סוף שבוע אחד בתל אביב, השתדלתי לבקר את כל מי שאפשר, ולצלם הכול על הדרך'
