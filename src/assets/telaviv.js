@@ -69,27 +69,27 @@ export const TELAVIV = [
         alt: 'חניון בדרום תל אביב',
         caption: 'נוף מעניין מאוד יש בחלון הזה'
     },
-    {
-        id: 10,
-        path: 'tel-aviv-walk',
-        src: 'assets/images/telavivjourney/picture91.jpg',
-        alt: 'יעל שוכבת',
-        caption: 'הלכתי להתארח אצל יעל'
-    },
-    {
-        id: 11,
-        path: 'tel-aviv-walk',
-        src: 'assets/images/telavivjourney/picture92.jpg',
-        alt: 'יעל',
-        caption: 'תודה, יעלי!'
-    },
-    {
-        id: 12,
-        path: 'tel-aviv-walk',
-        src: 'assets/images/telavivjourney/picture93.jpg',
-        alt: 'פירוק בשר באטליז',
-        caption: 'יום למחרת הלכתי לראות את ליה מפרקת בשר באטליז'
-    },
+    // {
+    //     id: 10,
+    //     path: 'tel-aviv-walk',
+    //     src: 'assets/images/telavivjourney/picture91.jpg',
+    //     alt: 'יעל שוכבת',
+    //     caption: 'הלכתי להתארח אצל יעל'
+    // },
+    // {
+    //     id: 11,
+    //     path: 'tel-aviv-walk',
+    //     src: 'assets/images/telavivjourney/picture92.jpg',
+    //     alt: 'יעל',
+    //     caption: 'תודה, יעלי!'
+    // },
+    // {
+    //     id: 12,
+    //     path: 'tel-aviv-walk',
+    //     src: 'assets/images/telavivjourney/picture93.jpg',
+    //     alt: 'פירוק בשר באטליז',
+    //     caption: 'יום למחרת הלכתי לראות את ליה מפרקת בשר באטליז'
+    // },
     {
         id: 13,
         path: 'tel-aviv-walk',
@@ -97,11 +97,11 @@ export const TELAVIV = [
         alt: 'יואב איתמר',
         caption: 'באותו שוק היה גם יואב'
     },
-    {
-        id: 14,
-        path: 'tel-aviv-walk',
-        src: 'assets/images/telavivjourney/picture95.jpg',
-        alt: 'יעל גורן',
-        caption: 'גם זו יעל, אבל אותה נדיר יותר לפגוש, ואי אפשר לדעת באיזו עיר'
-    }
+    // {
+    //     id: 14,
+    //     path: 'tel-aviv-walk',
+    //     src: 'assets/images/telavivjourney/picture95.jpg',
+    //     alt: 'יעל גורן',
+    //     caption: 'גם זו יעל, אבל אותה נדיר יותר לפגוש, ואי אפשר לדעת באיזו עיר'
+    // }
 ]

@@ -37,7 +37,7 @@ export const BETZET = [
     {
         id: 5,
         path: 'nahal-betzet',
-        src: 'assets/images/betzet/IMG_8652.jpg',
+        src: 'assets/images/betzet/IMG_8648.jpg',
         alt: 'יוני ונילי משקיפים',
         caption: 'נדמה לי שהם מסתכלים על פרה, אבל אולי זה פשוט סלע חום בצורה של פרה'
     },
@@ -83,13 +83,13 @@ export const BETZET = [
         alt: 'יוני, גל ואני',
         caption: 'אחרי שנפלטנו מהסדק שבהר מצאנו נחל. כנראה שזה נחל בצת'
     },
-    {
-        id: 12,
-        path: 'nahal-betzet',
-        src: 'assets/images/betzet/IMG_8729.jpg',
-        alt: 'אני על עץ',
-        caption: 'לא יכולתי להתאפק מלהדגים את כישורי הדברים המוזרים שאני עושה'
-    },
+    // {
+    //     id: 12,
+    //     path: 'nahal-betzet',
+    //     src: 'assets/images/betzet/IMG_8729.jpg',
+    //     alt: 'אני על עץ',
+    //     caption: 'לא יכולתי להתאפק מלהדגים את כישורי הדברים המוזרים שאני עושה'
+    // },
     {
         id: 13,
         path: 'nahal-betzet',
@@ -104,13 +104,13 @@ export const BETZET = [
         alt: 'מדרגות סלע',
         caption: 'עכשיו צריך לצאת ולטפס את ההר בחזרה'
     },
-    {
-        id: 15,
-        path: 'nahal-betzet',
-        src: 'assets/images/betzet/IMG_8759.jpg',
-        alt: 'צמחים וסלעים',
-        caption: 'בסך הכול הטבע הוא מקום יפה ומרשים, אם לא מבלים בו יותר מדי זמן'
-    },
+    // {
+    //     id: 15,
+    //     path: 'nahal-betzet',
+    //     src: 'assets/images/betzet/IMG_8759.jpg',
+    //     alt: 'צמחים וסלעים',
+    //     caption: 'בסך הכול הטבע הוא מקום יפה ומרשים, אם לא מבלים בו יותר מדי זמן'
+    // },
     {
         id: 16,
         path: 'nahal-betzet',
