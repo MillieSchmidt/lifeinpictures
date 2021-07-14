@@ -37,7 +37,7 @@ export const BETZET = [
     {
         id: 5,
         path: 'nahal-betzet',
-        src: 'assets/images/betzet/IMG_8648.jpg',
+        src: 'assets/images/betzet/23415231_1716381898374064_5790066944581165279_o_1716381898374064.jpg',
         alt: 'יוני ונילי משקיפים',
         caption: 'נדמה לי שהם מסתכלים על פרה, אבל אולי זה פשוט סלע חום בצורה של פרה'
     },
