@@ -9,10 +9,9 @@ const Gallery = ({ albumArray, pictures }) => {
 
     const gallery = albumArray.map((pic) => {
         return(
-            <figure key={pic.id} className="col-sm-3 col-6 d-flex flex-row justify-content-center" style={ {height: 14 + 'rem'} }>
+            <figure key={pic.id} className="col-sm-2 d-flex flex-row justify-content-center gallery-figure">
                 <Link to={`/${pic.path}/${pic.id}`} className="d-flex justify-content-center align-items-center">
-                    <img src={pic.src} alt={pic.alt} style={ {width: 95 + '%', height: 100 + '%'} }
-                        className="img-thumbnail"></img>
+                    <img src={pic.src} alt={pic.alt} className=""></img>
                 </Link>
             </figure>
         );
@@ -35,8 +34,8 @@ const Gallery = ({ albumArray, pictures }) => {
                 <p className="mb-3">{albumDescription}</p>
             </div>
 
-            <div className="container-fluid">
-                <div className="row gallery-row">
+            <div className="container px-5 d-flex justify-content-center">
+                <div className="row gallery-row d-flex justify-content-center">
                     {gallery}
                 </div>
             </div>

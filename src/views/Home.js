@@ -5,7 +5,7 @@ const Home = ({ pictures }) => {
 
     const albums = pictures.map((pic) => {
         return(
-            <figure key={pic.id} className="col-sm-3 col-6 d-flex flex-row justify-content-center" style={ {height: 14 + 'rem'} }>
+            <figure key={pic.id} className="col-xs-1 col-sm-3 d-flex flex-row justify-content-center" style={ {height: 14 + 'rem'} }>
                 <Link to={`/${pic.path}`} className="link mb-3">  
                     <img src={pic.src} alt={pic.alt} style={ {width: 100 + '%', height: 100 + '%'} }
                         className="img-thumbnail expand mx-0"></img>

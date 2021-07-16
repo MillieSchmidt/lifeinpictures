@@ -91,12 +91,12 @@ export const TELAVIV = [
     //     caption: 'יום למחרת הלכתי לראות את ליה מפרקת בשר באטליז'
     // },
     {
-        id: 13,
+        id: 10,
         path: 'tel-aviv-walk',
         src: 'assets/images/telavivjourney/picture94.jpg',
         alt: 'יואב איתמר',
         caption: 'באותו שוק היה גם יואב'
-    },
+    }
     // {
     //     id: 14,
     //     path: 'tel-aviv-walk',

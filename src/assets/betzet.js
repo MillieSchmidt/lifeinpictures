@@ -42,42 +42,42 @@ export const BETZET = [
     //     caption: 'נדמה לי שהם מסתכלים על פרה, אבל אולי זה פשוט סלע חום בצורה של פרה'
     // },
     {
-        id: 6,
+        id: 5,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_8664.jpg',
         alt: 'נכנסים למערה',
         caption: 'אמרתי לך שהולכים לארץ הפלאות!'
     },
     {
-        id: 7,
+        id: 6,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_86641.jpg',
         alt: 'יוני במערה',
         caption: '"תראו איך אני מאיר פה עם הפנס שלי..." "זוז, יש לי פלאש"'
     },
     {
-        id: 8,
+        id: 7,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_86642.jpg',
         alt: 'יוני ונטיפים',
         caption: 'טוב, כיביתי את הפלאש, ומצאנו נטיפים'
     },
     {
-        id: 9,
+        id: 8,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_8689.jpg',
         alt: 'כניסה למנהרה',
         caption: 'זה בערך השלב שבו נכנסים למנהרה צרה שאפשר רק לזחול בה על ארבע ולהתפלל שהאדם שנעצר בראש הטור, לא נעצר להרבה זמן'
     },
     {
-        id: 10,
+        id: 9,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_8721.jpg',
         alt: 'יוני ונילי',
         caption: 'ספוילר: בסוף הוא התחתן איתה ויש להם שתי ילדות, בינתיים'
     },
     {
-        id: 11,
+        id: 10,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_8728.jpg',
         alt: 'יוני, גל ואני',
@@ -91,14 +91,14 @@ export const BETZET = [
     //     caption: 'לא יכולתי להתאפק מלהדגים את כישורי הדברים המוזרים שאני עושה'
     // },
     {
-        id: 13,
+        id: 11,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_8737.jpg',
         alt: 'יוני בנחל',
         caption: 'גם יוני לא יכול היה להתאפק מלהדגים כישורי שחייה'
     },
     {
-        id: 14,
+        id: 12,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_8756.jpg',
         alt: 'מדרגות סלע',
@@ -112,28 +112,28 @@ export const BETZET = [
     //     caption: 'בסך הכול הטבע הוא מקום יפה ומרשים, אם לא מבלים בו יותר מדי זמן'
     // },
     {
-        id: 16,
+        id: 13,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_8776.jpg',
         alt: 'כולם עם עץ גדול',
         caption: 'בסוף מצאנו עץ גדול, או שהוא מצא אותנו'
     },
     {
-        id: 17,
+        id: 14,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_8779.jpg',
         alt: 'יוני, גל ונילי',
         caption: 'כשאף אחד כבר לא מבין מה או למה אני מצלם'
     },
     {
-        id: 18,
+        id: 15,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_8795.jpg',
         alt: 'בניין נטוש ביער',
         caption: 'סוף המסלול. אני לא בטוח למה הבניין הזה משמש אבל אני די בטוח שהוא עוד שם'
     },
     {
-        id: 19,
+        id: 16,
         path: 'nahal-betzet',
         src: 'assets/images/betzet/IMG_86291.jpg',
         alt: 'ים בשקיעה',
