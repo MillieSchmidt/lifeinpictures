@@ -32,6 +32,7 @@ const Slider = ({ clickedPicId, album, selectedAlbum }) => {
     const picture = album.map((pic) => {
         return(
             <div className={album[counter].id === pic.id ? "pic-container active" : "pic-container"} key={pic.id}>
+                <div className="cancel"><Link to={`/${selectedAlbum}`} className="cancel-link"><FaTimes /></Link></div>
                 <img src={`../${pic.src}`} alt={pic.alt} onTouchStart={touchStart} onTouchMove={touchMove} onTouchEnd={touchEnd}></img>
                 <p className="text-white text-center px-5 pt-2">{pic.caption}</p>
             </div>
@@ -49,7 +50,6 @@ const Slider = ({ clickedPicId, album, selectedAlbum }) => {
     return(
         <div>
         <div className="wrapper">
-            <Link to={`/${selectedAlbum}`}><FaTimes className="cancel" /></Link>
             <FaAngleRight className="prev" onClick={prevPic}></FaAngleRight>
             <div className="slider">
                 {picture}
