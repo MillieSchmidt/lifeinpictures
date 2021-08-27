@@ -44,9 +44,27 @@ body {
 }
 
 .link {
-  max-width: 80%;
+  max-width: 100%;
   color: black;
   font-size: 1rem;
+}
+
+@media screen and (min-width: 282px) and (max-width: 400px) {
+  .link {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 499px) {
+  .link {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 580px) {
+  .link {
+    max-width: 50%;
+  }
 }
 
 .link:hover {
