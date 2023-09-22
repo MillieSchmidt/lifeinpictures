@@ -2,7 +2,7 @@ export const PICTURES = [
     {
         id: 0,
         path: 'nahal-alexander',
-        src: 'assets/images/נחל אלכסנדר/picture94.jpg',
+        src: 'assets/images/נחל אלכסנדר/cover.jpg',
         album: 'נחל אלכסנדר',
         alt: 'צב מים על סלעים',
         description: 'טיול קצר ביום סתווי לנחל אלכסנדר, שהפגיש כלב חדש עם צבי מים'
@@ -10,7 +10,7 @@ export const PICTURES = [
     {
         id: 1,
         path: 'negev-eilat',
-        src: 'assets/images/אילת והנגב/picture94.jpg',
+        src: 'assets/images/אילת והנגב/cover.jpg',
         album: 'הנגב ואילת',
         alt: 'אורות בלילה',
         description: 'תמונות מכמה טיולים באזור הנגב ואילת, עם הנופים המרשימים של האזור ועם הים'
@@ -18,7 +18,7 @@ export const PICTURES = [
     {
         id: 2,
         path: 'roadtrip',
-        src: 'assets/images/טיול בצפון/picture6.jpg',
+        src: 'assets/images/טיול בצפון/cover.jpg',
         album: 'טיול בצפון',
         alt: 'פסלים בעין הוד',
         description: 'לפעמים החוויה כולה היא בטיול ולא בהכרח במה שרואים כשמגיעים, אז לקחנו רכב וקיאק מתנפח ויצאנו לדרכים'
@@ -26,7 +26,7 @@ export const PICTURES = [
     {
         id: 3,
         path: 'emek-hamaayanot',
-        src: 'assets/images/בעמק המעיינות/picture92.jpg',
+        src: 'assets/images/בעמק המעיינות/cover.jpg',
         album: 'בעמק המעיינות',
         alt: 'עמק המעיינות',
         description: 'יצאנו לטייל בעמק המעיינות, הליכה ואחר כך השתכשכות במים'
@@ -34,7 +34,7 @@ export const PICTURES = [
     {
         id: 4,
         path: 'israel-north',
-        src: 'assets/images/על הגבול/picture95.jpg',
+        src: 'assets/images/על הגבול/cover.jpg',
         album: 'על גבול לבנון',
         alt: 'צפון ישראל',
         description: 'נסענו לטייל בצפון ישראל, ממש לא רחוק מגבול לבנון, ובכל מיני אתרים משונים'
@@ -42,7 +42,7 @@ export const PICTURES = [
     {
         id: 5,
         path: 'hula-golan',
-        src: 'assets/images/החולה והגולן 14.2.15/picture94.jpg',
+        src: 'assets/images/החולה והגולן 14.2.15/cover.jpg',
         album: 'עמק החולה והגולן',
         alt: 'שלג בגולן',
         description: 'הלכנו את כל עמק החולה עם החיות והציפורים, וכמובן לא יכולנו לפספס את השלג שירד בגולן באותו פברואר'
@@ -50,7 +50,7 @@ export const PICTURES = [
     {
         id: 6,
         path: 'italian-journey',
-        src: 'assets/images/Il viaggio italiano dicembre 2016/IMG_7466.JPG',
+        src: 'assets/images/Il viaggio italiano dicembre 2016/cover.JPG',
         album: 'מסע באיטליה',
         alt: 'חוף הים האדריאטי',
         description: 'יצאתי לשבועיים באיטליה, מוונציה עד רומא, דרך מראנו, ורונה, אנקונה ועוד'
@@ -58,7 +58,7 @@ export const PICTURES = [
     {
         id: 7,
         path: 'old-akko',
-        src: 'assets/images/בולמים את נפוליאון/picture3.jpg',
+        src: 'assets/images/בולמים את נפוליאון/cover.jpg',
         album: 'בולמים את נפוליאון',
         alt: 'פסל בעכו',
         description: 'הלכנו לטייל בעיר שבלמה את נפוליאון, להירטב במים ולאכול'
@@ -66,7 +66,7 @@ export const PICTURES = [
     {
         id: 8,
         path: 'haifa-nights',
-        src: 'assets/images/פוסט חיפה/picture0.jpg',
+        src: 'assets/images/פוסט חיפה/cover.jpg',
         album: 'פוסט חיפה',
         alt: 'חיפאים',
         description: 'חג סוכות אחד בחיפה, באווירת פוסט פּאנק אפלולית וחשמלית משהו'
@@ -74,7 +74,7 @@ export const PICTURES = [
     {
         id: 9,
         path: 'tel-aviv-walk',
-        src: 'assets/images/telavivjourney/picture7.jpg',
+        src: 'assets/images/telavivjourney/cover.jpg',
         album: 'מסע תל אביבי',
         alt: 'תל אביב',
         description: 'סוף שבוע אחד בתל אביב, השתדלתי לבקר את כל מי שאפשר, ולצלם הכול על הדרך'
@@ -82,7 +82,7 @@ export const PICTURES = [
     {
         id: 10,
         path: 'nahal-betzet',
-        src: 'assets/images/betzet/IMG_8648.jpg',
+        src: 'assets/images/betzet/cover.jpg',
         album: 'נחל בצת',
         alt: 'נחל בצת',
         description: 'לילה באוהלים, הליכה בנחל בצת וזחילה במנהרה'
@@ -90,7 +90,7 @@ export const PICTURES = [
     {
         id: 11,
         path: 'athens',
-        src: 'assets/images/אתונה 3.18/IMG_0457.JPG',
+        src: 'assets/images/אתונה 3.18/cover.JPG',
         album: 'אתונה',
         alt: 'נוי באתונה',
         description: 'כמה ימים באתונה, עם הרבה חברים ומצלמה, שהוציאו אלבום די גדול מלא באנשים יפים'
@@ -98,7 +98,7 @@ export const PICTURES = [
     {
         id: 12,
         path: 'independence-day',
-        src: 'assets/images/יום העצמאות 2018/IMG_1392.JPG',
+        src: 'assets/images/יום העצמאות 2018/cover.JPG',
         album: 'יום העצמאות 2018',
         alt: 'יום העצמאות',
         description: 'יום העצמאות 2018 במוריה בחיפה. החג האהוב עליי, או לפחות אחד מהם'
@@ -106,7 +106,7 @@ export const PICTURES = [
     {
         id: 13,
         path: 'sumeg-castle-hungary',
-        src: 'assets/images/שומג ושארוור/IMG_2883.JPG',
+        src: 'assets/images/שומג ושארוור/cover.JPG',
         album: 'שומג ושארוור',
         alt: 'תחרויות אבירים בהונגריה',
         description: 'סיור באווירת ימי הביניים בטירת שומג ובעיירה שארוור, בהונגריה'
@@ -114,7 +114,7 @@ export const PICTURES = [
     {
         id: 14,
         path: 'georgia',
-        src: 'assets/images/גאורגיה 2019/IMG_4193.JPG',
+        src: 'assets/images/גאורגיה 2019/cover.JPG',
         album: 'גאורגיה',
         alt: 'גאורגיה',
         description: 'שלושה שבועות כמעט של הליכה בהרים ובערים, במיוחד בטביליסי הנהדרת וברוסתאווי הסובייטית'
@@ -122,7 +122,7 @@ export const PICTURES = [
     {
         id: 15,
         path: 'life-in-haifa',
-        src: 'assets/images/חיים בחיפה/IMG_4791.JPG',
+        src: 'assets/images/חיים בחיפה/cover.JPG',
         album: 'חיים בחיפה',
         alt: 'חיים בחיפה',
         description: 'החלטתי לצלם את החיים בחיפה, עם מה שאפשר לתפוס ברחוב או על הכביש. המסקנה שלי מכל זה, היא שיש חיים בחיפה'
