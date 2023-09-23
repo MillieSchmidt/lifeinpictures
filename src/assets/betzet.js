@@ -135,7 +135,7 @@ export const BETZET = [
     {
         id: 19,
         path: 'nahal-betzet',
-        src: 'assets/images/betzet/IMG_86291.png',
+        src: 'assets/images/betzet/IMG_86271.png',
         alt: 'ים בשקיעה',
         caption: 'אה, כן. לילה לפני ההליכה הזו עוד ישנו באוהלים איפשהו בצפון'
     }
